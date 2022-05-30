@@ -1,0 +1,13 @@
+{
+    "Youtube": ["https://www.youtube.com", "https://www.youtube.com/favicon.ico"],
+    "Google": ["https://www.google.com", "https://www.google.com/favicon.ico"],
+    "Facebook": ["https://www.facebook.com", "https://www.facebook.com/favicon.ico"],
+    "Twitter": ["https://www.twitter.com", "https://www.twitter.com/favicon.ico"],
+    "Instagram": ["https://www.instagram.com", "https://www.instagram.com/favicon.ico"],
+    "LinkedIn": ["https://www.linkedin.com", "https://www.linkedin.com/favicon.ico"],
+    "Wikipedia": ["https://www.wikipedia.org", "https://www.wikipedia.org/favicon.ico"],
+    "Yahoo": ["https://www.yahoo.com", "https://www.yahoo.com/favicon.ico"],
+    "Bing": ["https://www.bing.com", "https://www.bing.com/favicon.ico"],
+    "Amazon": ["https://www.amazon.com", "https://www.amazon.com/favicon.ico"],
+    "Ebay": ["https://www.ebay.com", "https://www.ebay.com/favicon.ico"]
+}

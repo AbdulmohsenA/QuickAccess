@@ -1,0 +1,36 @@
+body {
+    background-color: #2f2f2f;
+    min-width: 240px;
+    min-height: 400px;
+}
+
+.row {
+    display: table;
+
+}
+
+.image {
+    position: relative;
+    display: table-cell;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    transition: background-color 0.25s;
+}
+
+.image:hover {
+    background-color: #3f3f3f;
+  }
+
+img {
+    width: 60px;
+    max-height: auto;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
