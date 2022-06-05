@@ -4,7 +4,7 @@
 ## Features
 
 ### Quick
-Locally saved sites so that as soon as you press the extension the sites you prefer appear as icons
+Extension to save sites you want as icons for easy and quick access
 
 ### Chrome Extension
 You just need to add it in your Chrome browser, thats it.
