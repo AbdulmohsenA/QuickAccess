@@ -1,13 +1,41 @@
-{
-    "Youtube": ["https://www.youtube.com", "https://www.youtube.com/favicon.ico"],
-    "Google": ["https://www.google.com", "https://www.google.com/favicon.ico"],
-    "Facebook": ["https://www.facebook.com", "https://www.facebook.com/favicon.ico"],
-    "Twitter": ["https://www.twitter.com", "https://www.twitter.com/favicon.ico"],
-    "Instagram": ["https://www.instagram.com", "https://www.instagram.com/favicon.ico"],
-    "LinkedIn": ["https://www.linkedin.com", "https://www.linkedin.com/favicon.ico"],
-    "Wikipedia": ["https://www.wikipedia.org", "https://www.wikipedia.org/favicon.ico"],
-    "Yahoo": ["https://www.yahoo.com", "https://www.yahoo.com/favicon.ico"],
-    "Bing": ["https://www.bing.com", "https://www.bing.com/favicon.ico"],
-    "Amazon": ["https://www.amazon.com", "https://www.amazon.com/favicon.ico"],
-    "Ebay": ["https://www.ebay.com", "https://www.ebay.com/favicon.ico"]
-}
+[{
+    "name": "Youtube",
+    "url": "https://www.youtube.com",
+    "icon": "https://www.youtube.com/favicon.ico"
+}, {
+    "name": "Google",
+    "url": "https://www.google.com",
+    "icon": "https://www.google.com/favicon.ico"
+}, {
+    "name": "Facebook",
+    "url": "https://www.facebook.com",
+    "icon": "https://www.facebook.com/favicon.ico"
+}, {
+    "name": "Twitter",
+    "url": "https://www.twitter.com",
+    "icon": "https://www.twitter.com/favicon.ico"
+}, {
+    "name": "Instagram",
+    "url": "https://www.instagram.com",
+    "icon": "https://www.instagram.com/favicon.ico"
+}, {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com",
+    "icon": "https://www.linkedin.com/favicon.ico"
+}, {
+    "name": "Wikipedia",
+    "url": "https://www.wikipedia.org",
+    "icon": "https://www.wikipedia.org/favicon.ico"
+}, {
+    "name": "Yahoo",
+    "url": "https://www.yahoo.com",
+    "icon": "https://www.yahoo.com/favicon.ico"
+}, {
+    "name": "Bing",
+    "url": "https://www.bing.com",
+    "icon": "https://www.bing.com/favicon.ico"
+}, {
+    "name": "Amazon",
+    "url": "https://www.amazon.com",
+    "icon": "https://www.amazon.com/favicon.ico"
+}]

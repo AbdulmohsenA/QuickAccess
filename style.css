@@ -4,12 +4,7 @@ body {
     min-height: 400px;
 }
 
-.row {
-    display: table;
-
-}
-
-.image {
+.site {
     position: relative;
     display: table-cell;
     align-items: center;
@@ -20,7 +15,7 @@ body {
     transition: background-color 0.25s;
 }
 
-.image:hover {
+.site:hover {
     background-color: #3f3f3f;
   }
 

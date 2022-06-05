@@ -1,19 +1,18 @@
 import myJson from './sites.json' assert {type: 'json'};
 
-//alert(myJson.Twitter[0]);
+addList(myJson);
 
-addSite(myJson.LinkedIn[0], myJson.LinkedIn[1], 0);
-addSite(myJson.Youtube[0], myJson.Youtube[1], 0);
-addSite(myJson.Twitter[0], myJson.Twitter[1], 0);
-addSite(myJson.LinkedIn[0], myJson.LinkedIn[1], 1);
-addSite(myJson.LinkedIn[0], myJson.LinkedIn[1], 1);
-addSite(myJson.LinkedIn[0], myJson.LinkedIn[1], 1);
-addSite(myJson.LinkedIn[0], myJson.LinkedIn[1], 2);
+function addList(JSON)  {
 
+    for (var i = 0; i < JSON.length; i++) {
+        var row = Math.floor((i) / 3);      // Each row will contain 3 sites
+        addSite(JSON[i].url, JSON[i].icon, row);
+    }
+}
 
 function addSite(url, icon, row) {
     const newDiv = document.createElement('div');
-    newDiv.className = 'image';
+    newDiv.className = 'site';
     newDiv.innerHTML = `<a href="${url}" target="_blank"><img src="${icon}" alt="${url}" /></a>`;
 
     var row = document.getElementsByClassName('row')[row];
