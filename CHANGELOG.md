@@ -32,6 +32,8 @@ The reason is that inline scripting is vulnerable to XSS (Cross-Site Scripting),
 
 ### Changed
 - Completely changed the way the program saves data, now it uses localStorage instead of an external json file. Due to json file was hard to change using JavaScript alone, i had to use Node.js's ```fs``` library. So localStorage is a better alternative because the data i want to save is very light.
+
+### Deleted
+- ```sites.json``` due to the use of localStorage.
 ---
-=======
->>>>>>> 4e5501ed949bff262666f8c79dd339616de28ea3
+
