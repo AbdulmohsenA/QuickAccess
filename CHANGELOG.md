@@ -20,7 +20,7 @@
 
 
 ### Notes
-- The chrome extension security rules prevent making inline JavaScript, like '''<button onclick="test.js"></button>'''.
+- The chrome extension security rules prevent making inline JavaScript, like ```<button onclick="test.js">This</button>```.
 The reason is that inline scripting is vulnerable to XSS (Cross-Site Scripting), So the common alternative is to load the logic script from the start as a seperate entity, then add a listener to the button onclick event.
 ---
 
