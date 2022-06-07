@@ -19,7 +19,7 @@ You just need to add it in your Chrome browser, thats it.
  
 ## TODO
 #### Functionality
-- **Add**: Add a button to add current site in the list.
+- ~~**Add**: Add a button to add current site in the list.~~
 - **Delete**: Add a way to delete a site from the list.
 - **Clear**: clear the whole list.
 

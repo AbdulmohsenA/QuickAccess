@@ -29,3 +29,23 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#AddCurrentBtn {
+    height: 60px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#AddCurrentBtn:hover {
+    background-color: #8f8f8f;
+}

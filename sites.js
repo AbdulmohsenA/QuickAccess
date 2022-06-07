@@ -1,4 +1,10 @@
-import myJson from './sites.json' assert {type: 'json'};
+if (localStorage.getItem("sites") === null) {
+    // If the storage is empty, we create an empty array to initiallize it.
+    var myJson = [];                                    
+    localStorage.setItem("sites", JSON.stringify(myJson));
+  }
+
+var myJson = JSON.parse(localStorage.getItem('sites')); // Get the JSON from localStorage
 
 addList(myJson);
 

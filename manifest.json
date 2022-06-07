@@ -1,8 +1,12 @@
 {
     "manifest_version": 3,
     "name": "Quick Access",
-    "description": "Quick access to the most used sites.",
+    "description": "Quick access to sites you add",
     "version": "0.0.1",
+    "permissions": [
+        "tabs",
+        "storage"
+      ],
     "action": {
         "default_popup": "popup.html"
     },
