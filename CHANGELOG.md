@@ -7,13 +7,14 @@
 
 ---
 
-## [0.6.5] - 2022-06-04
+## [0.6.5] - 2022-06-05
 
 
 ### Changed
 - Completed the importation of sites from external file `sites.json`, now the program will import all necessary info from the file and use it. This way was used to increase protability.
 - The representation of json objects in the json file. Now it is more optimized and general.
 ---
+<<<<<<< HEAD
 
 ## [0.6.6] - 2022-06-06
 
@@ -32,3 +33,5 @@ The reason is that inline scripting is vulnerable to XSS (Cross-Site Scripting),
 ### Changed
 - Completely changed the way the program saves data, now it uses localStorage instead of an external json file. Due to json file was hard to change using JavaScript alone, i had to use Node.js's ```fs``` library. So localStorage is a better alternative because the data i want to save is very light.
 ---
+=======
+>>>>>>> 4e5501ed949bff262666f8c79dd339616de28ea3
