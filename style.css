@@ -1,7 +1,13 @@
 body {
     background-color: #2f2f2f;
-    min-width: 240px;
-    min-height: 400px;
+    width: 240px;
+    height: auto;
+
+}
+
+.container {
+    height: auto;
+
 }
 
 .site {
@@ -30,12 +36,20 @@ img {
     transform: translate(-50%, -50%);
 }
 
+.buttons {
+    height: 60px;
+    width: 240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
 #AddCurrentBtn {
     height: 60px;
-    width: 200px;
-    display: block;
+    width: 140px;
     margin: auto;
-    margin-top: 10px;
     color: white;
     background-color: transparent;
     border: 2px solid white;
@@ -49,3 +63,42 @@ img {
 #AddCurrentBtn:hover {
     background-color: #8f8f8f;
 }
+
+#ClearSitesBtn {
+    height: 60px;
+    width: 80px;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ff0000;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#ClearSitesBtn:hover {
+    background-color: #ff3333;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

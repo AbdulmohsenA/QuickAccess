@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         myJson.push(newSite)
         localStorage.setItem('sites', JSON.stringify(myJson));
-
+        location.reload(); 
         });
     });
 });

@@ -14,7 +14,6 @@
 - Completed the importation of sites from external file `sites.json`, now the program will import all necessary info from the file and use it. This way was used to increase protability.
 - The representation of json objects in the json file. Now it is more optimized and general.
 ---
-<<<<<<< HEAD
 
 ## [0.6.6] - 2022-06-06
 
@@ -33,5 +32,16 @@ The reason is that inline scripting is vulnerable to XSS (Cross-Site Scripting),
 ### Changed
 - Completely changed the way the program saves data, now it uses localStorage instead of an external json file. Due to json file was hard to change using JavaScript alone, i had to use Node.js's ```fs``` library. So localStorage is a better alternative because the data i want to save is very light.
 ---
-=======
->>>>>>> 4e5501ed949bff262666f8c79dd339616de28ea3
+
+## [1.0.0] - 2022-06-08
+
+
+### Added
+- `Clear` Button which will clear the local storage.
+
+### Fixed
+- Improved the code to make it easier to read.
+- Made the changes happen dynamically on button click by using location.reload(), until i find a better alternative.
+
+Eventhough the app is not optimized. It is now ready for normal use.
+---
