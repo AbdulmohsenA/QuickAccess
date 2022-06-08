@@ -19,7 +19,7 @@
 
 
 ### Notes
-- The chrome extension security rules prevent making inline JavaScript, like '''<button onclick="test.js"></button>'''.
+- The chrome extension security rules prevent making inline JavaScript, like ```<button onclick="test.js">This</button>```.
 The reason is that inline scripting is vulnerable to XSS (Cross-Site Scripting), So the common alternative is to load the logic script from the start as a seperate entity, then add a listener to the button onclick event.
 ---
 
@@ -31,6 +31,9 @@ The reason is that inline scripting is vulnerable to XSS (Cross-Site Scripting),
 
 ### Changed
 - Completely changed the way the program saves data, now it uses localStorage instead of an external json file. Due to json file was hard to change using JavaScript alone, i had to use Node.js's ```fs``` library. So localStorage is a better alternative because the data i want to save is very light.
+
+### Deleted
+- ```sites.json``` due to the use of localStorage.
 ---
 
 ## [1.0.0] - 2022-06-08
