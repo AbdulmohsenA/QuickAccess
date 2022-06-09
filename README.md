@@ -33,7 +33,10 @@ You just need to add it in your Chrome browser, thats it.
 ---
 
 ## Outcomes
-`By doing this project. I learned a lot about JS/HTML Binding, Chrome extension bundles, JS language. But the most important suggestion that i would give my future self is to NEVER use original CSS. 
+```
+By doing this project. I learned a lot about JS/HTML Binding, Chrome extension bundles, JS language.
+But the most important suggestion that i would give my future self is to NEVER use original CSS.
+It is very troublesome and time consuming to achieve some basic UI requirements. A better alternative surely is there.
 
 Hopefully i will make the next projects of this kind in React.js or any good alternative, because Vanilla JS/CSS is hard to handle.
-`
+```
