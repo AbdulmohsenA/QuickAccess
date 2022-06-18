@@ -10,6 +10,10 @@ Extension to save sites you want as icons for easy and quick access
 ### Chrome Extension
 You just need to add it in your Chrome browser, thats it.
 
+---
+## Permissions
+- Tabs: This extension requires the `tabs` permission to be able to get the tab you are viewing right now in order to add it in the database.
+- Storage: This extension requires the `storage` permission because it uses `localStorage` as the main database for saving sites info. 
 
 ---
 
