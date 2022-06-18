@@ -14,12 +14,12 @@ You just need to add it in your Chrome browser, thats it.
 ---
 
 ## Setup
->1- Download the folder as zip file.
->2- extract the folder named `QuickAccess`.
->3- In Chrome click [Here](chrome://extensions/).
->4- You will see your current extensions, to add a this extension. press the `Developer mode` on the top right corner.
->5- Press the `Load Unpacked` button, and choose the `QuickAccess` folder.
->6- Now you have the latest version of this extension in your browser.
+>- Download the folder as zip file.
+>- extract the folder named `QuickAccess`.
+>- In Chrome click [Here](chrome://extensions/).
+>- You will see your current extensions, to add a this extension. press the `Developer mode` on the top right corner.
+>- Press the `Load Unpacked` button, and choose the `QuickAccess` folder.
+>- Now you have the latest version of this extension in your browser.
 
 ```Images will be availabe soon```
 ---
