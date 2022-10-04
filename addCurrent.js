@@ -1,5 +1,5 @@
 //TODO Find a way to edit the json file and push the new site in it.
-// TODO find a way to run 'addSite()' function when the user clicks on the button.
+// Follow up: its bad, just use single object
 var myJson = JSON.parse(localStorage.getItem('sites'));
 
 document.addEventListener('DOMContentLoaded', function() {

@@ -48,3 +48,18 @@ The reason is that inline scripting is vulnerable to XSS (Cross-Site Scripting),
 
 Eventhough the app is not optimized. It is now ready for normal use.
 ---
+
+## [1.10.4] - 2022-10-04
+
+
+### Added
+- `Remove` Button which will remove a selected button by right clicking --> Remove.
+
+### Fixed
+- Tried to refactor the code to make sites appear in key-item pair in localStorage. But reverted it because
+it was proven bad [duplicates, sorting, etc...].
+
+### About history rewriting
+``` Update was commited yesterday (3rd of October) but with a wrong user. After some searching i rewritten the history of Github to recommit as the main user (Owner)
+```
+---

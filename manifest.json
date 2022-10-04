@@ -2,10 +2,11 @@
     "manifest_version": 3,
     "name": "Quick Access",
     "description": "Quick access to sites you add",
-    "version": "0.0.1",
+    "version": "1.10.4",
     "permissions": [
         "tabs",
-        "storage"
+        "storage",
+        "contextMenus"
       ],
     "action": {
         "default_popup": "popup.html"
