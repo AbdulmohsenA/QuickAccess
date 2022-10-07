@@ -33,16 +33,17 @@ You just need to add it in your Chrome browser, thats it.
 - ~~**Add**: Add a button to add current site in the list.~~
 - ~~**Delete**: Add a way to delete a site from the list.~~
 - ~~**Clear**: clear the whole list.~~
-- **Within**: Add a way (using badges) to search within a site that is already in the list
+- **Sets**: Add pages of each have seperate storage
 
 ### UX
 - ~~**Logos**: 32x32 logos are too small and blurry, find a way to represent a site better.~~
-- **Not found**: if favicons are not found, make a good makeshift logo
+- **Not found**: if favicons are not found, make a good makeshift logo.
+- **favIcons**: favIcons usually come blurry due to scaling, find a way to get a high resolution icon.
+- **RemoveBtn**: Remove button functionality in the context menu should be singular button.
 
 #### Adjustments
 - **Cleanup**: Optimize the code
 - **UI/UX**: Enhance UI design
-- **Security**: obfuscate the js code
 
 ---
 
