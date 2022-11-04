@@ -59,7 +59,5 @@ Eventhough the app is not optimized. It is now ready for normal use.
 - Tried to refactor the code to make sites appear in key-item pair in localStorage. But reverted it because
 it was proven bad [duplicates, sorting, etc...].
 
-### About history rewriting
-``` Update was commited yesterday (3rd of October) but with a wrong user. After some searching i rewritten the history of Github to recommit as the main user (Owner)
-```
+
 ---
